@@ -348,6 +348,9 @@ By default, the name of the environment will be whatever the name of the source
 environment was; you can change the name by adding a `-n <name>` option to the
 `conda env create` command.
 
+To change the packages configuration add/remove/alter package and package version by directly editing your `environment.yml` file,
+352 and re-initialzing your conda environment.
+
 If you use a source control system like `git`, we recommend checking your
 `environment.yml` file into source control and making sure to recreate it 
 when you make changes to your environment.
